@@ -1,4 +1,4 @@
-# Mine - A Minecraft-like Project
+# ThunderMine - A Minecraft-like Project
 
 A simple, educational project built with **Thunde Engine** that recreates core mechanics of Minecraft, including block-based world interaction, free movement, and flight.
 
