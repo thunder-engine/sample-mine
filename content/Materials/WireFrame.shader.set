@@ -1,0 +1,14 @@
+{
+	"guid": "{658a836f-650c-405a-b923-badd69925c82}",
+	"id": 323249444,
+	"md5": "{1bda7b09-5797-0b18-6d07-dadb1673f2db}",
+	"meta": {
+	},
+	"settings": {
+		"CurrentRHI": 1
+	},
+	"subitems": {
+	},
+	"type": "Material",
+	"version": 14
+}

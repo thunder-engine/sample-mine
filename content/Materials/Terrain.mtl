@@ -1,0 +1,53 @@
+<document version="14">
+    <graph>
+        <nodes>
+            <node type="" x="0" y="0" index="0">
+                <value name="materialType" type="int">0</value>
+                <value name="lightingModel" type="int">1</value>
+                <value name="wireFrame" type="bool">false</value>
+                <value name="twoSided" type="bool">true</value>
+                <value name="useWithSkinned" type="bool">true</value>
+                <value name="useWithParticles" type="bool">true</value>
+                <value name="blendColorOperation" type="int">0</value>
+                <value name="blendAlphaOperation" type="int">0</value>
+                <value name="blendSourceColor" type="int">0</value>
+                <value name="blendSourceAlpha" type="int">0</value>
+                <value name="blendDestinationColor" type="int">1</value>
+                <value name="blendDestinationAlpha" type="int">1</value>
+                <value name="depthTest" type="bool">true</value>
+                <value name="depthWrite" type="bool">true</value>
+                <value name="depthCompare" type="int">1</value>
+                <value name="stencilTest" type="bool">false</value>
+                <value name="stencilReadMask" type="int">1</value>
+                <value name="stencilWriteMask" type="int">1</value>
+                <value name="stencilReference" type="int">0</value>
+                <value name="stencilCompareBack" type="int">7</value>
+                <value name="stencilCompareFront" type="int">7</value>
+                <value name="stencilFailBack" type="int">0</value>
+                <value name="stencilFailFront" type="int">0</value>
+                <value name="stencilPassBack" type="int">0</value>
+                <value name="stencilPassFront" type="int">0</value>
+                <value name="stencilZFailBack" type="int">0</value>
+                <value name="stencilZFailFront" type="int">0</value>
+            </node>
+            <node type="TextureSample" x="-299" y="0" index="1">
+                <value name="Texture" type="template">{9b835918-c265-4b15-bab2-9b06f7fdf06b}, Texture</value>
+            </node>
+            <node type="ConstFloat" x="-289" y="230" index="2">
+                <value name="Value" type="float">1</value>
+            </node>
+        </nodes>
+        <links>
+            <link receiver="0" in="5" sender="1" out="4"/>
+            <link receiver="0" in="0" sender="1" out="0"/>
+            <link receiver="0" in="4" sender="2" out="0"/>
+        </links>
+    </graph>
+    <user>
+        <type value="Surface"/>
+        <model value="Lit"/>
+        <side value="true"/>
+        <wireframe value="false"/>
+        <depth comp="Less" write="true" test="true"/>
+    </user>
+</document>

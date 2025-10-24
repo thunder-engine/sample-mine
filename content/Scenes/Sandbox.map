@@ -1,0 +1,377 @@
+[
+	[
+		"Map",
+		536596602,
+		0,
+		"{359db7c3-30ce-4e6f-a6bf-674e6261ce31}",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Scene",
+		-2112639914,
+		536596602,
+		"Sandbox",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		-967689995,
+		-2112639914,
+		"DirectLight",
+		{
+			"enabled": true,
+			"name": "DirectLight",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		2102139836,
+		-967689995,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,1.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.109382,0.875426,0.408218,-0.234570]
+			},
+			"rotation": {
+				"Vector3": [-50.000000,210.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"DirectLight",
+		-1718120242,
+		-967689995,
+		"DirectLight",
+		{
+			"brightness": 1.000000,
+			"castShadows": true,
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"enabled": true
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		624016994,
+		-2112639914,
+		"WorldManager",
+		{
+			"enabled": true,
+			"name": "WorldManager",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-2023299413,
+		624016994,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"WorldManager",
+		-1984861257,
+		624016994,
+		"WorldManager",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"chunkPrefab": "{bb73413d-93de-4a35-9649-f86da9041640}",
+			"playerPrefab": "{02c1145b-0072-48ee-be22-1fdbb26191d0}"
+		}
+	],
+	[
+		"Actor",
+		-1052325454,
+		-2112639914,
+		"Screen",
+		{
+			"enabled": true,
+			"name": "Screen",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		-839729992,
+		-1052325454,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"minAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"mouseTracking": true,
+			"offsetMax": {
+				"Vector2": [727.000000,332.000000]
+			},
+			"offsetMin": {
+				"Vector2": [727.000000,332.000000]
+			},
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [7.333246,8.245058,-1.974992]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [1616.000000,666.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Widget",
+		-111310345,
+		-1052325454,
+		"Widget",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		1874256853,
+		-1052325454,
+		"Image",
+		{
+			"enabled": true,
+			"name": "Image",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"RectTransform",
+		1107018975,
+		1874256853,
+		"RectTransform",
+		{
+			"boder": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"enabled": true,
+			"margin": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"maxAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"minAnchors": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"mouseTracking": true,
+			"offsetMax": {
+				"Vector2": [722.000000,327.000000]
+			},
+			"offsetMin": {
+				"Vector2": [722.000000,327.000000]
+			},
+			"padding": {
+				"Vector4": [0.000000,0.000000,0.000000,0.000000]
+			},
+			"pivot": {
+				"Vector2": [0.500000,0.500000]
+			},
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			},
+			"size": {
+				"Vector2": [10.000000,10.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Image",
+		-278379488,
+		1874256853,
+		"Image",
+		{
+			"color": {
+				"Vector4": [1.000000,1.000000,1.000000,1.000000]
+			},
+			"drawMode": 1,
+			"enabled": true,
+			"item": "Rectangle"
+		},
+		[
+		],
+		{
+			"material": "{00000000-0401-0000-0000-000000000000}",
+			"sprite": "{00000000-0202-0000-0000-000000000000}"
+		}
+	],
+	[
+		"Actor",
+		220189801,
+		-2112639914,
+		"PostProcessVolume",
+		{
+			"enabled": true,
+			"name": "PostProcessVolume",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		687987598,
+		220189801,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"quaternion": {
+				"Quaternion": [0.000000,0.000000,0.000000,1.000000]
+			},
+			"rotation": {
+				"Vector3": [0.000000,0.000000,0.000000]
+			},
+			"scale": {
+				"Vector3": [1.000000,1.000000,1.000000]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"PostProcessVolume",
+		-868832732,
+		220189801,
+		"PostProcessVolume",
+		{
+			"ambientOcclusion/bias": 0.030000,
+			"ambientOcclusion/power": 2.000000,
+			"ambientOcclusion/radius": 0.200000,
+			"bloom/Threshold": 1.000000,
+			"depthOfField/blurSize": 20.000000,
+			"depthOfField/focusScale": 10.000000,
+			"depthOfField/skyDistance": 100000.000000,
+			"enabled": true,
+			"priority": 0,
+			"unbound": true
+		},
+		[
+		],
+		{
+			"deferredIndirect/environmentMap": "{f37b2840-270a-48f3-a3f5-656cff787de3}",
+			"toneMap/colorGradingLut": ""
+		}
+	]
+]

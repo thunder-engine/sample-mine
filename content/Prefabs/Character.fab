@@ -1,0 +1,303 @@
+[
+	[
+		"Prefab",
+		-1237217633,
+		0,
+		"{02c1145b-0072-48ee-be22-1fdbb26191d0}",
+		{
+		},
+		[
+		],
+		{
+			"Actor": -2067674028
+		}
+	],
+	[
+		"Actor",
+		-2067674028,
+		-1237217633,
+		"Character",
+		{
+			"enabled": true,
+			"name": "Character",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-126028832,
+		-2067674028,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					20.000000,
+					30.000000,
+					20.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					0.000000,
+					180.000000,
+					0.000000
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					1.000000,
+					1.000000,
+					1.000000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"FpsController",
+		-1655871736,
+		-2067674028,
+		"FpsController",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"characterController": -122775020,
+			"playerInput": 512713800,
+			"targetCube": 0
+		}
+	],
+	[
+		"Actor",
+		1405037266,
+		-2067674028,
+		"Camera",
+		{
+			"enabled": true,
+			"name": "Camera",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		451003790,
+		1405037266,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					0.000000,
+					0.750000,
+					0.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					-0.087156,
+					0.000000,
+					0.000000,
+					0.996195
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					-10.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					1.000000,
+					1.000000,
+					1.000000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Camera",
+		-1131716010,
+		1405037266,
+		"Camera",
+		{
+			"backgroundColor": {
+				"Vector4":
+				[
+					0.000000,
+					0.333333,
+					0.498039,
+					0.000000
+				]
+			},
+			"enabled": true,
+			"far": 1000.000000,
+			"focalDistance": 1.000000,
+			"fov": 45.000000,
+			"near": 0.100000,
+			"orthographic": false,
+			"ratio": 0.948540,
+			"size": 1.000000
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		-358340753,
+		1405037266,
+		"Head",
+		{
+			"enabled": true,
+			"name": "Head",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		240519672,
+		-358340753,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					1.000000
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					0.500000,
+					0.500000,
+					0.500000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		52286371,
+		-358340753,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{00000000-0402-0000-0000-000000000000}"
+			],
+			"mesh": "{42376049-06ff-4de3-816d-820d6428e07e}"
+		}
+	],
+	[
+		"CharacterController",
+		-122775020,
+		-2067674028,
+		"CharacterController",
+		{
+			"center": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"enabled": true,
+			"height": 2.000000,
+			"radius": 0.500000,
+			"skinWidth": 0.080000,
+			"slopeLimit": 45.000000,
+			"stepOffset": 0.300000
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"PlayerInput",
+		512713800,
+		-2067674028,
+		"PlayerInput",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"controlScheme": "{3d9837b7-2121-421d-9d49-bf584b7f2b48}"
+		}
+	]
+]

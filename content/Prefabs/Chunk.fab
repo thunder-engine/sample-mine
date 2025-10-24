@@ -1,0 +1,121 @@
+[
+	[
+		"Prefab",
+		42460425,
+		0,
+		"",
+		{
+		},
+		[
+		],
+		{
+			"Actor": -1123991594
+		}
+	],
+	[
+		"Actor",
+		-1123991594,
+		42460425,
+		"Chunk",
+		{
+			"enabled": true,
+			"name": "Chunk",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		352445661,
+		-1123991594,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					1.000000
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					1.000000,
+					1.000000,
+					1.000000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		-1231809938,
+		-1123991594,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{3ae1de18-68fd-4ebb-bf36-d57deba4df4f}"
+			],
+			"mesh": "{42376049-06ff-4de3-816d-820d6428e07e}"
+		}
+	],
+	[
+		"ChunkRenderer",
+		802110653,
+		-1123991594,
+		"ChunkRenderer",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshCollider",
+		1479668688,
+		-1123991594,
+		"MeshCollider",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"Shared_Mesh": ""
+		}
+	]
+]

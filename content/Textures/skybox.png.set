@@ -1,0 +1,18 @@
+{
+	"guid": "{f37b2840-270a-48f3-a3f5-656cff787de3}",
+	"id": -383872028,
+	"md5": "{5af3ee3e-8625-5e80-4d90-707b9275af5d}",
+	"meta": {
+	},
+	"settings": {
+		"filtering": 1,
+		"mipMaping": false,
+		"pixelsPerUnit": 100,
+		"type": 3,
+		"wrap": 1
+	},
+	"subitems": {
+	},
+	"type": "Texture",
+	"version": 9
+}

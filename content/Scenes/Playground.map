@@ -1,0 +1,457 @@
+[
+	[
+		"Map",
+		-1998785782,
+		0,
+		"",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Scene",
+		-1884827647,
+		-1998785782,
+		"Playground",
+		{
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		-1589624895,
+		-1884827647,
+		"MeshRender",
+		{
+			"enabled": true,
+			"name": "MeshRender",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-1002147765,
+		-1589624895,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					20.000000,
+					13.000000,
+					20.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					1.000000
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					20.000000,
+					1.000000,
+					20.000000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		-529689093,
+		-1589624895,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{00000000-0402-0000-0000-000000000000}"
+			],
+			"mesh": "Box001"
+		}
+	],
+	[
+		"BoxCollider",
+		916913945,
+		-1589624895,
+		"BoxCollider",
+		{
+			"center": {
+				"Vector3":
+				[
+					0.000000,
+					0.200000,
+					0.000000
+				]
+			},
+			"enabled": true,
+			"size": {
+				"Vector3":
+				[
+					0.500000,
+					0.500000,
+					0.500000
+				]
+			},
+			"trigger": false
+		},
+		[
+		],
+		{
+			"material": ""
+		}
+	],
+	[
+		"RigidBody",
+		1182222865,
+		-1589624895,
+		"RigidBody",
+		{
+			"enabled": true,
+			"kinematic": false,
+			"lockPosition": 0,
+			"lockRotation": 0,
+			"mass": 0.000000
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		923703564,
+		-1884827647,
+		"DirectLight",
+		{
+			"enabled": true,
+			"name": "DirectLight",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-1931038447,
+		923703564,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					0.000000,
+					10.000000,
+					0.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					-0.250000,
+					0.250000,
+					0.066987,
+					0.933013
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					-30.000000,
+					30.000000,
+					0.000000
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					1.000000,
+					1.000000,
+					1.000000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"DirectLight",
+		681119448,
+		923703564,
+		"DirectLight",
+		{
+			"brightness": 1.000000,
+			"castShadows": true,
+			"color": {
+				"Vector4":
+				[
+					1.000000,
+					1.000000,
+					1.000000,
+					1.000000
+				]
+			},
+			"enabled": true
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		-2115790783,
+		-1884827647,
+		"Camera",
+		{
+			"enabled": true,
+			"name": "Camera",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		-1311498231,
+		-2115790783,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					26.974792,
+					19.012648,
+					20.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					-0.268016,
+					0.493753,
+					0.342835,
+					0.752888
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					-10.000000,
+					68.010338,
+					42.209496
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					1.000000,
+					1.000000,
+					1.000000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Camera",
+		-1299509584,
+		-2115790783,
+		"Camera",
+		{
+			"backgroundColor": {
+				"Vector4":
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"enabled": true,
+			"far": 1000.000000,
+			"focalDistance": 1.000000,
+			"fov": 45.000000,
+			"near": 0.100000,
+			"orthographic": false,
+			"ratio": 0.800830,
+			"size": 1.000000
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"Actor",
+		-1057442616,
+		-1884827647,
+		"MeshRender1",
+		{
+			"enabled": true,
+			"name": "MeshRender1",
+			"static": false
+		},
+		[
+		],
+		{
+			"Flags": 3
+		}
+	],
+	[
+		"Transform",
+		21164089,
+		-1057442616,
+		"Transform",
+		{
+			"enabled": true,
+			"position": {
+				"Vector3":
+				[
+					20.000000,
+					15.000000,
+					20.000000
+				]
+			},
+			"quaternion": {
+				"Quaternion":
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					1.000000
+				]
+			},
+			"rotation": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"scale": {
+				"Vector3":
+				[
+					1.000000,
+					1.000000,
+					1.000000
+				]
+			}
+		},
+		[
+		],
+		{
+		}
+	],
+	[
+		"MeshRender",
+		401329260,
+		-1057442616,
+		"MeshRender",
+		{
+			"enabled": true
+		},
+		[
+		],
+		{
+			"materials": [
+				"{00000000-0402-0000-0000-000000000000}"
+			],
+			"mesh": "Box001"
+		}
+	],
+	[
+		"BoxCollider",
+		-349876876,
+		-1057442616,
+		"BoxCollider",
+		{
+			"center": {
+				"Vector3":
+				[
+					0.000000,
+					0.000000,
+					0.000000
+				]
+			},
+			"enabled": true,
+			"size": {
+				"Vector3":
+				[
+					0.500000,
+					0.500000,
+					0.500000
+				]
+			},
+			"trigger": false
+		},
+		[
+		],
+		{
+			"material": ""
+		}
+	],
+	[
+		"RigidBody",
+		-1944946489,
+		-1057442616,
+		"RigidBody",
+		{
+			"enabled": true,
+			"kinematic": false,
+			"lockPosition": 0,
+			"lockRotation": 0,
+			"mass": 1.000000
+		},
+		[
+		],
+		{
+		}
+	]
+]
