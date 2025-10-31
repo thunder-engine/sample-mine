@@ -33,19 +33,22 @@ public:
     // Use this to initialize behaviour
     void start() override {
         Input::mouseLockCursor(true);
+        Camera *camera = dynamic_cast<Camera *>(actor()->componentInChild("Camera"));
+        if (camera) {
+            Camera::setCurrent(camera);
+        }
     }
 
     // Will be called each frame. Use this to write your game logic
     void update() override {
         Camera *camera = Camera::current();
-        if(camera) {
-            Transform *camera_t = camera->transform();
+        if (camera) {
+            Transform* camera_t = camera->transform();
+            Transform* t = transform();
 
             Vector4 delta = Input::mouseDelta() * 0.2f;
 
-            Transform *t = transform();
             t->setRotation(t->rotation() - Vector3(0.0f, delta.x, 0.0f));
-
             camera_t->setRotation(camera_t->rotation() - Vector3(-delta.y, 0.0f, 0.0f));
 
             int x, y, z;

@@ -1,10 +1,11 @@
 {
 	"guid": "{60514e0a-9a9e-4c61-a3d9-b07d9f44bfb2}",
-	"id": 901665038,
+	"id": -347512420,
 	"md5": "{021ae159-8bd6-e1e5-cbcf-71250afe6826}",
 	"meta": {
 	},
 	"settings": {
+		"compressed": false,
 		"filtering": 1,
 		"mipMaping": false,
 		"pixelsPerUnit": 100,
