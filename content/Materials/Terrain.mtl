@@ -31,7 +31,7 @@
                 <value name="stencilZFailFront" type="int">0</value>
             </node>
             <node type="TextureSample" x="-299" y="0" index="1">
-                <value name="Texture" type="template">{9b835918-c265-4b15-bab2-9b06f7fdf06b}, Texture</value>
+                <value name="Texture" type="template">{03035918-c265-4b15-bab2-9b06f7fdf06b}, Texture</value>
             </node>
             <node type="ConstFloat" x="-289" y="230" index="2">
                 <value name="Value" type="float">1</value>

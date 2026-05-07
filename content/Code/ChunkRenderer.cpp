@@ -59,21 +59,19 @@ static const std::unordered_map<BlockType, SolidBlock*> s_blockTypes = {
 class ChunkRenderer : public NativeBehaviour {
     A_OBJECT(ChunkRenderer, NativeBehaviour, Components)
 
-    ChunkData *m_chunkData;
+    ChunkData *m_chunkData = nullptr;
 
-    Mesh *m_chunkMesh;
-    Mesh *m_solidMesh;
-    Mesh *m_vegetationMesh;
-    MeshCollider *m_collider;
-    MeshRender *m_render;
+    Mesh *m_chunkMesh = nullptr;
+    Mesh *m_solidMesh = nullptr;
+    Mesh *m_vegetationMesh = nullptr;
+    MeshCollider *m_collider = nullptr;
+    MeshRender *m_render = nullptr;
 
 public:
     ChunkRenderer() :
             m_chunkMesh(Engine::objectCreate<Mesh>("ChunkMesh")),
             m_solidMesh(Engine::objectCreate<Mesh>("SolidMesh")),
-            m_vegetationMesh(Engine::objectCreate<Mesh>("VegetationMesh")),
-            m_collider(nullptr),
-            m_render(nullptr) {
+            m_vegetationMesh(Engine::objectCreate<Mesh>("VegetationMesh")) {
 
         m_chunkMesh->makeDynamic();
     }

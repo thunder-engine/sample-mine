@@ -1,5 +1,5 @@
 {
-	"guid": "{9b835918-c265-4b15-bab2-9b06f7fdf06b}",
+	"guid": "{03035918-c265-4b15-bab2-9b06f7fdf06b}",
 	"id": -1647614038,
 	"md5": "{67bcf3fd-74fd-d371-45a0-e4cb2daa4f21}",
 	"meta": {
@@ -15,5 +15,5 @@
 	"subitems": {
 	},
 	"type": "Texture",
-	"version": 9
+	"version": 10
 }
