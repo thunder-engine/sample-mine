@@ -2,11 +2,13 @@
 	"companyName": "Evgeniy Prikazchikov",
 	"firstMap": "{0d0db7c3-30ce-4e6f-a6bf-674e6261ce31}",
 	"modules": [
+		"Bullet"
 	],
 	"platforms": [
+		"desktop"
 	],
 	"projectId": "{dd29e973-40e3-4230-b872-1f7316c91a7d}",
 	"projectName": "mine",
-	"projectSdk": "2025.3",
+	"projectSdk": "2026.3",
 	"projectVersion": "1.0"
 }
